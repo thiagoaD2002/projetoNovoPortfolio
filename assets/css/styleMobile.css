@@ -44,6 +44,7 @@ header{
 
     width: 420px;
     border: 1px solid red;
+    height: 1200px;
 }
 
 .navHeader{
@@ -97,7 +98,7 @@ header{
     align-items: center;
 }
 .divFoto > img{
-    width: 160px;    
+    width: 150px;    
     border-radius: 15px;
 
     transform: skewY(-5deg);
@@ -132,7 +133,7 @@ header{
 }
 
 .divTitulo > h1{
-   font-size: 1.5em; 
+   font-size: 1.3em; 
 }
 
 .divTitulo > p {
