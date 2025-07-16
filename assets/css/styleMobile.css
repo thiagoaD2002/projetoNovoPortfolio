@@ -42,7 +42,8 @@ header{
 
 .main{
 
-    width: 440px;
+    width: 420px;
+    border: 1px solid red;
 }
 
 .navHeader{
