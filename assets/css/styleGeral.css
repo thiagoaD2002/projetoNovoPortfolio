@@ -35,7 +35,7 @@
 /* ================================================================== */
 
 body{
-    width: 99vw;
+    width: 100vw;
     height: 100vh;
     background-color: #F9F7FF;
 }
@@ -54,8 +54,8 @@ header{
 }
 
 .main{
+   width: 90%;
    
-    width:95%;
     margin: auto;
     /* border: 1px solid red; */
 

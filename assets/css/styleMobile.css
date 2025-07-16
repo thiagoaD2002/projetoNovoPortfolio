@@ -3,12 +3,20 @@
 
 @media screen and (max-width: 768px){
    
-   header{
-    height: 70px;
+body{
+    width: 97vw;
 }
 
-body{
-    width: 97vw !important;
+header{
+    height: 70px;
+
+}
+
+
+
+.main{
+    border: 1px solid red;
+    width: 440px;
 }
 
 .navHeader{
@@ -17,13 +25,17 @@ body{
     padding: 9px;
     flex-direction: row;
     justify-content: space-around;
+
+    
     
     
 }
 
 .navDiv{
-    width: 80px;
+    width: 60px;
     height: 60px;
+
+    border: 1px solid red;
     
 
     display: flex;
@@ -31,11 +43,11 @@ body{
     justify-content: center;
     align-items: center;
     
-    font-size: .9em;
+    font-size: .8em;
     
 }
 .navDiv > img{
-    width: 25px;
+    width: 24px;
     color: #794CF8;
 
     
@@ -48,7 +60,7 @@ body{
 
 .secInicio{
     margin-top: 150px;
-    grid-column: 1/12;
+    
 }
 .divFoto{
     display: flex;
@@ -58,7 +70,7 @@ body{
     align-items: center;
 }
 .divFoto > img{
-    width: 190px;    
+    width: 160px;    
     border-radius: 15px;
 
     transform: skewY(-5deg);
@@ -93,12 +105,12 @@ body{
 }
 
 .divTitulo > h1{
-   font-size: 1.7em; 
+   font-size: 1.5em; 
 }
 
 .divTitulo > p {
     margin-top: 10px;
-    font-size: .8em;
+    font-size: .7em;
     opacity: 80%;
     font-weight: normal;
 }
@@ -109,13 +121,13 @@ body{
    margin-top: 200px;
 }
 .divTituloForm{
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: #190B3F;
     line-height: 60px;
     
 }
 .divTextForm{
-    font-size: .9em;
+    font-size: .8em;
 }
 .divTextForm > p:last-child{
     margin-top: 20px;
