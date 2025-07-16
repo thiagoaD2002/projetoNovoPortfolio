@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira_Sans/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+   
+    
+}
+
+:root{
+
+    --fontPoppins: 'Poppins',sans-serif;
+    --fontFira: 'Fira Sans',sans-serif;
+    --fontRoboto: 'Roboto',sans-serif;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ================================================================== */
+
+body{
+    width: 99vw;
+    height: 100vh;
+    background-color: #F9F7FF;
+}
+
+header{
+    background-color: #190B3F;
+   
+
+    
+}
+
+.navHeader{
+    display: flex;
+    color: #F9F7FF;
+    font-family: var(--fontFira);
+}
+
+.main{
+   
+    width:95%;
+    margin: auto;
+    /* border: 1px solid red; */
+
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+/* ====================================== SEC INICIO ================================ */
+.secInicio{
+    display: flex;
+    flex-direction: row;
+}
+.divTitulo > h1{
+    font-family: var(--fontRoboto);
+    color: #190B3F;
+    position: relative;
+    
+    z-index: 100;
+   
+}
+.divFoto > p{
+    font-family: var(--fontRoboto);
+}
+.divTitulo > h1::before, .divTitulo > h1::after{
+    content: ' ';
+    display: block;
+    width: 15px;
+    height: 80px;
+    
+
+    
+    position: absolute;
+    transform: rotate(35deg);
+    z-index: -1;
+
+    
+    
+
+}
+
+.divTitulo > h1::before{
+    bottom: 47px;
+    left: -7px;
+    background-color: #6D3CB7ed;
+}
+
+.divTitulo > h1::after{
+    background-color: #9756F9;
+    bottom: 50px;
+    left: 13px;
+}
+
+.divTitulo > p {
+    font-family: var(--fontRoboto);
+    color: #190B3F;
+       
+}
+
+/* ====================================== SEC FORM ================================ */
+.secFormacaoTit{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+.divTituloForm{
+    font-family: var(--fontRoboto);
+    color: #190B3F;
+    opacity: 5%;
+
+   
+}
+.divTextForm > p{
+    font-family: var(--fontRoboto);
+    color: #766E8F;
+    text-align: left;
+}
+

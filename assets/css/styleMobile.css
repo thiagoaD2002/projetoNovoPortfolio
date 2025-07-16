@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 768px){
+   
+   header{
+    height: 70px;
+}
+
+body{
+    width: 97vw !important;
+}
+
+.navHeader{
+    width: 80%;
+    margin: auto;
+    padding: 9px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.navDiv{
+    width: 80px;
+    height: 60px;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: .9em;
+    
+}
+.navDiv > img{
+    width: 25px;
+    color: #794CF8;
+
+    
+   
+}
+.navDiv > p {
+    margin-top: 5px;
+}
+/* ====================================== SEC INICIO ================================ */
+
+.secInicio{
+    margin-top: 150px;
+    grid-column: 1/12;
+}
+.divFoto{
+    display: flex;
+    flex-direction: column;
+
+    
+    align-items: center;
+}
+.divFoto > img{
+    width: 190px;    
+    border-radius: 15px;
+
+    transform: skewY(-5deg);
+
+    box-shadow: 1px 1px 5px 1px #9756f97e;
+
+    
+
+}
+
+.divFoto > p{
+    margin-top: 20px;
+    font-size: .9em;
+    letter-spacing: .8px;
+    font-weight: 300;
+    
+}
+.divTitulo{
+   
+    height: 150px;
+    align-self: center;
+    width: 200px;
+    margin-left: 80px;
+    margin-bottom: 150px;
+
+    position: relative;
+    
+
+    
+   
+
+}
+
+.divTitulo > h1{
+   font-size: 1.7em; 
+}
+
+.divTitulo > p {
+    margin-top: 10px;
+    font-size: .8em;
+    opacity: 80%;
+    font-weight: normal;
+}
+
+/* ====================================== SEC INICIO ================================ */
+.secFormacaoTit{
+    /* border: 1px solid red; */
+   margin-top: 200px;
+}
+.divTituloForm{
+    font-size: 1.8em;
+    color: #190B3F;
+    line-height: 60px;
+    
+}
+.divTextForm{
+    font-size: .9em;
+}
+.divTextForm > p:last-child{
+    margin-top: 20px;
+}
+}
+
+
