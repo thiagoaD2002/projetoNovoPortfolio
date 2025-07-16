@@ -1,11 +1,37 @@
 @charset "UTF-8";
 
 
-@media screen and (max-width: 768px){
-   
-body{
-    width: 97vw;
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
 }
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira_Sans/FiraSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+   
+    
+}
+
+:root{
+
+    --fontPoppins: 'Poppins',sans-serif;
+    --fontFira: 'Fira Sans',sans-serif;
+    --fontRoboto: 'Roboto',sans-serif;
+
+}
+
+@media screen and (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
 
 header{
     height: 70px;
@@ -15,7 +41,7 @@ header{
 
 
 .main{
-    border: 1px solid red;
+
     width: 440px;
 }
 
@@ -35,7 +61,7 @@ header{
     width: 60px;
     height: 60px;
 
-    border: 1px solid red;
+  
     
 
     display: flex;
@@ -121,17 +147,100 @@ header{
    margin-top: 200px;
 }
 .divTituloForm{
-    font-size: 1.5em;
+    font-size: 1.9em;
     color: #190B3F;
     line-height: 60px;
     
 }
 .divTextForm{
-    font-size: .8em;
+    font-size: .9em;
 }
 .divTextForm > p:last-child{
     margin-top: 20px;
 }
+
+.divWolf{
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+.divWolf > p{
+    text-align: center;
+    color: #766E8F;
+    opacity: 80%;
+    font-family: var(--fontPoppins);
+    font-size: .8em;
+}
+
+.wolfText > h3 {
+    font-size: 1em;
+}
+.wolfText > p {
+    font-size: .8em;
+    margin-top: 10px;
+}
+.wolfUrban{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 120px;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.wolfUrban::before{
+    content: ' ';
+    display: block;
+    background-image: linear-gradient(to bottom, #9756F9, #6D3CB7);
+    height: 25px;
+    width: 4px;
+
+    position: absolute;
+    left: -4px;
+    top: 16px;
+}
+.wolfLing > h3 {
+    font-family: var(--fontFira);
+    color: #241357;
+    font-size: 1em;
+    text-align: center;
+}
+
+.cxDeLinguagens{
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 10px;
+    margin-top: 10px;
+}
+.cxDeLinguagens > div {
+    background-color: #F9F7FF;
+    font-size: .7em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 5px;
+
+    font-family: var(--fontFira);
+    color: #241357;
+}
+
+.divUXUI {
+    width: 80px;
+}
+.divUXUI:last-child{
+    margin-left: 15px;
+}
+
 }
 
 

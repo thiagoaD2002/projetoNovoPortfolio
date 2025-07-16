@@ -83,8 +83,8 @@ header{
 .divTitulo > h1::before, .divTitulo > h1::after{
     content: ' ';
     display: block;
-    width: 15px;
-    height: 80px;
+    width: 10px;
+    height: 60px;
     
 
     
@@ -106,7 +106,7 @@ header{
 .divTitulo > h1::after{
     background-color: #9756F9;
     bottom: 50px;
-    left: 13px;
+    left: 7px;
 }
 
 .divTitulo > p {
@@ -135,5 +135,18 @@ header{
     font-family: var(--fontRoboto);
     color: #766E8F;
     text-align: left;
+}
+.wolfUrban{
+    background-color: #D6D1E6;
+}
+.wolfText > h3{
+    color: #703EBB;
+    font-family: var(--fontFira);
+}
+
+.wolfText > p {
+    color: black;
+    opacity: 70%;
+    font-family: var(--fontRoboto);
 }
 
