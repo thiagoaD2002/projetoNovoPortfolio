@@ -42,8 +42,8 @@ header{
 
 .main{
 
-    width: 400px;
-    border: 1px solid red;
+    width: 450px;
+    /* border: 1px solid red; */
     height: 1200px;
 }
 
@@ -147,15 +147,27 @@ header{
 .secFormacaoTit{
     /* border: 1px solid red; */
    margin-top: 200px;
+   display: block;
 }
 .divTituloForm{
     font-size: 1.9em;
     color: #190B3F;
     line-height: 60px;
+
+    text-align: center;
+    letter-spacing: 5px;
+
+   
+    margin-bottom: 100px;
     
 }
 .divTextForm{
+    margin-bottom: 50px;
+}
+
+.divTextForm > p{
     font-size: .9em;
+    text-indent: 5px;
 }
 .divTextForm > p:last-child{
     margin-top: 20px;
@@ -178,6 +190,8 @@ header{
     font-size: .8em;
 }
 
+
+
 .wolfText > h3 {
     font-size: 1em;
 }
@@ -190,12 +204,13 @@ header{
     flex-direction: row;
     justify-content: space-between;
 
+    width: 400px;
     height: 120px;
-    padding: 15px;
-
+    padding: 12px;
     border-radius: 10px;
-
     position: relative;
+
+    border: 1px solid green;
 }
 
 .wolfUrban::before{
