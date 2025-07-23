@@ -29,22 +29,19 @@
 
 @media (max-width: 700px){
 
-    body{
-        overflow-x: hidden;
-    }
-
+   
 header{
     height: 70px;
-
 }
 
 
 
 .main{
-
-    width: 450px;
+    
+    width: 380px;
     /* border: 1px solid red; */
     height: 1200px;
+    
 }
 
 .navHeader{
@@ -162,7 +159,7 @@ header{
     
 }
 .divTextForm{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .divTextForm > p{
@@ -175,7 +172,7 @@ header{
 
 .divWolf{
     /* border: 1px solid red; */
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
 
@@ -193,24 +190,24 @@ header{
 
 
 .wolfText > h3 {
-    font-size: 1em;
+    font-size: 1.1em;
 }
 .wolfText > p {
-    font-size: .7em;
+    font-size: .8em;
     margin-top: 10px;
 }
 .wolfUrban{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    width: 350px;
-    height: 120px;
-    padding: 12px;
-    border-radius: 10px;
     position: relative;
-
-    border: 1px solid green;
+    flex-direction: column;
+    
+    width: 340px;
+    height: 250px;
+    margin: auto;
+    padding: 12px;
+    border-radius: 10px;  
+    box-shadow: 1px 1px 3px #190b3f34;
+    
 }
 
 .wolfUrban::before{
@@ -224,6 +221,9 @@ header{
     left: -4px;
     top: 16px;
 }
+.wolfLing{
+    margin-top: 50px;
+}
 .wolfLing > h3 {
     font-family: var(--fontFira);
     color: #241357;
@@ -233,22 +233,29 @@ header{
 
 .cxDeLinguagens{
     display: grid;
-    grid-template-columns: repeat(3, 60px);
-    gap: 10px;
-    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 80px);
+    gap: 20px;
+
+    margin-top: 15px;
+     
 }
 .cxDeLinguagens > div {
-    background-color: #F9F7FF;
-    font-size: .6em;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px;
-    border-radius: 5px;
+    
 
     font-family: var(--fontFira);
     color: #241357;
+    font-weight: 700;
+    font-size: .7em;
+    letter-spacing: 1px;
+    background-color: #F9F7FF;
+    height: 25px;
+    
+    border-radius: 5px;
 }
 
 .divUXUI {
