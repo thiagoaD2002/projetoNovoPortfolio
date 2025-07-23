@@ -222,7 +222,7 @@ header{
     top: 16px;
 }
 .wolfLing{
-    margin-top: 50px;
+    margin-top: 45px;
 }
 .wolfLing > h3 {
     font-family: var(--fontFira);
@@ -256,6 +256,15 @@ header{
     height: 25px;
     
     border-radius: 5px;
+    border: 1px solid #9756f972;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.cxDeLinguagens > div:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 3px 2px #7a4cf816;
+    
 }
 
 .divUXUI {
