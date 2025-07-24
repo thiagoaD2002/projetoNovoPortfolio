@@ -99,14 +99,14 @@ header{
 }
 
 .divTitulo > h1::before{
-    bottom: 40px;
+    bottom: 60px;
     left: -5px;
     background-color: #6D3CB7ed;
 }
 
 .divTitulo > h1::after{
     background-color: #9756F9;
-    bottom: 44px;
+    bottom: 64px;
     left: 7px;
 }
 
@@ -137,15 +137,13 @@ header{
     color: #766E8F;
     text-align: left;
 }
-.wolfUrban{
-    background-color: #D6D1E6;
-}
-.wolfText > h3{
+
+.cxFormaçoes  h3{
     color: #703EBB;
     font-family: var(--fontFira);
 }
 
-.wolfText > p {
+.cxFormaçoes  p {
     color: black;
     opacity: 70%;
     font-family: var(--fontRoboto);
