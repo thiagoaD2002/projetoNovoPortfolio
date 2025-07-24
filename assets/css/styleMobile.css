@@ -30,6 +30,8 @@
 @media (max-width: 700px){
 
    
+
+
 header{
     height: 70px;
 }
@@ -41,6 +43,10 @@ header{
     width: 340px;
     /* border: 1px solid red; */
     height: 1200px;
+
+    
+
+    grid-area: secForm;
     
 }
 
@@ -68,11 +74,11 @@ header{
     justify-content: center;
     align-items: center;
     
-    font-size: .8em;
+    font-size: .7em;
     
 }
 .navDiv > img{
-    width: 24px;
+    width: 16px;
     color: #794CF8;
 
     
@@ -262,11 +268,6 @@ header{
     cursor: pointer;
 }
 
-.cxDeLinguagens > div:hover{
-    transform: translateY(-2px);
-    box-shadow: 1px 1px 3px 2px #7a4cf816;
-    
-}
 
 .divUXUI {
     width: 80px;
@@ -287,6 +288,109 @@ header{
 .divLanding{
     margin-top: 90px;
 }
+
+/* ====================================== AREA DE FACULDADES ================================ */
+
+
+.fundoFaculdade{
+    background-color: #10062B;
+    height: 200px;
+    height: 100%;
+    position: relative;
+    top: 850px;
+    
+}
+
+.fundoFaculdade > section {
+    padding-top: 80px;
+}
+
+.divTitFacul > h1{
+    color: #180C39;
+    font-size: 2em;
+    font-family: var(--fontRoboto);
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 5px;
+    
+    
+   
+}
+
+.divTextFacul{
+    font-size: .8em;
+    font-family: var(--fontRoboto);
+    color: #A89DC9;
+
+
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    letter-spacing: .9px;
+   
+    
+}
+
+.divConteinerFacul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+.divConteinerFacul > div{
+    background-color: #05051A;
+
+    width: 300px;
+    height: 150px;
+    padding: 15px;
+
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px #7a4cf819;
+    position: relative;
+}
+
+.divConteinerFacul > div::before{
+    content: ' ';
+    display: block;
+
+    background-image: linear-gradient(to bottom, #9756F9, #6D3CB7);
+    height: 20px;
+    width: 4px;
+
+    position: absolute;
+    top: 30px;
+    left: -4px;
+}
+.h3BachDout{
+    color: #9189A5;
+    font-family: var(--fontFira);
+    font-weight: 600;
+    font-size: .8em;
+}
+
+.pBachDout {
+    color: #D6D1E6;
+    font-family: var(--fontFira);
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 30px;
+
+    
+}
+
+.ufrrj{
+    margin-top: 45px;
+    color: #9189A5;
+    font-weight: 600;
+    font-size: .7em;
+    font-family: var(--fontFira);
+}
+
+
+
 
 }
 
