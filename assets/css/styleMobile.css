@@ -46,7 +46,8 @@ header{
 
     
 
-    grid-area: secForm;
+    
+   
     
 }
 
@@ -301,6 +302,8 @@ header{
     top: 850px;
 
     padding-bottom: 80px;    
+
+    
 }
 
 .fundoFaculdade > section {
@@ -451,7 +454,7 @@ header{
 }
 
 .pNivelIdioma{
-    margin-left: -125px;
+   
     font-weight: normal;
     font-size: .8em;
 }
